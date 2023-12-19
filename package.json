@@ -1,0 +1,25 @@
+{
+  "name": "bot_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2",
+    "pornhub.js": "^1.10.1",
+    "telegraf": "^4.15.3"
+  }
+}
